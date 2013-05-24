@@ -20,6 +20,13 @@
 		A808777615EAB52C00574533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808775715EAB52C00574533 /* Foundation.framework */; };
 		A808777E15EAB52C00574533 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A808777C15EAB52C00574533 /* InfoPlist.strings */; };
 		A808778115EAB52C00574533 /* DTaskMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A808778015EAB52C00574533 /* DTaskMasterTests.m */; };
+		A808778B15EAB6B600574533 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808778A15EAB6B600574533 /* CoreData.framework */; };
+		A808778E15EAB75100574533 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A808778C15EAB75100574533 /* TaskModel.xcdatamodeld */; };
+		A808779115EABC1900574533 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = A808779015EABC1900574533 /* Task.m */; };
+		A808779415EAD67800574533 /* TasksDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A808779315EAD67800574533 /* TasksDocument.m */; };
+		A808779815EADCF700574533 /* TaskHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A808779615EADCF700574533 /* TaskHeaderViewController.m */; };
+		A808779915EADCF700574533 /* TaskHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A808779715EADCF700574533 /* TaskHeaderViewController.xib */; };
+		A88BAAE4168F4ECB00588045 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A88BAAE3168F4ECB00588045 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,16 @@
 		A808777D15EAB52C00574533 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A808777F15EAB52C00574533 /* DTaskMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTaskMasterTests.h; sourceTree = "<group>"; };
 		A808778015EAB52C00574533 /* DTaskMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTaskMasterTests.m; sourceTree = "<group>"; };
+		A808778A15EAB6B600574533 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A808778D15EAB75100574533 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
+		A808778F15EABC1900574533 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		A808779015EABC1900574533 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		A808779215EAD67800574533 /* TasksDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksDocument.h; sourceTree = "<group>"; };
+		A808779315EAD67800574533 /* TasksDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksDocument.m; sourceTree = "<group>"; };
+		A808779515EADCF700574533 /* TaskHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskHeaderViewController.h; sourceTree = "<group>"; };
+		A808779615EADCF700574533 /* TaskHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskHeaderViewController.m; sourceTree = "<group>"; };
+		A808779715EADCF700574533 /* TaskHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskHeaderViewController.xib; sourceTree = "<group>"; };
+		A88BAAE3168F4ECB00588045 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A808778B15EAB6B600574533 /* CoreData.framework in Frameworks */,
 				A808775615EAB52C00574533 /* UIKit.framework in Frameworks */,
 				A808775815EAB52C00574533 /* Foundation.framework in Frameworks */,
 				A808775A15EAB52C00574533 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +99,7 @@
 		A808774615EAB52B00574533 = {
 			isa = PBXGroup;
 			children = (
+				A88BAAE3168F4ECB00588045 /* Default-568h@2x.png */,
 				A808775B15EAB52C00574533 /* DTaskMaster */,
 				A808777915EAB52C00574533 /* DTaskMasterTests */,
 				A808775415EAB52C00574533 /* Frameworks */,
@@ -100,6 +119,7 @@
 		A808775415EAB52C00574533 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A808778A15EAB6B600574533 /* CoreData.framework */,
 				A808775515EAB52C00574533 /* UIKit.framework */,
 				A808775715EAB52C00574533 /* Foundation.framework */,
 				A808775915EAB52C00574533 /* CoreGraphics.framework */,
@@ -117,6 +137,11 @@
 				A808776A15EAB52C00574533 /* ViewController.h */,
 				A808776B15EAB52C00574533 /* ViewController.m */,
 				A808775C15EAB52C00574533 /* Supporting Files */,
+				A808779215EAD67800574533 /* TasksDocument.h */,
+				A808779315EAD67800574533 /* TasksDocument.m */,
+				A808779515EADCF700574533 /* TaskHeaderViewController.h */,
+				A808779615EADCF700574533 /* TaskHeaderViewController.m */,
+				A808779715EADCF700574533 /* TaskHeaderViewController.xib */,
 			);
 			path = DTaskMaster;
 			sourceTree = "<group>";
@@ -128,6 +153,9 @@
 				A808775E15EAB52C00574533 /* InfoPlist.strings */,
 				A808776115EAB52C00574533 /* main.m */,
 				A808776315EAB52C00574533 /* DTaskMaster-Prefix.pch */,
+				A808778C15EAB75100574533 /* TaskModel.xcdatamodeld */,
+				A808778F15EABC1900574533 /* Task.h */,
+				A808779015EABC1900574533 /* Task.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -196,7 +224,7 @@
 		A808774815EAB52B00574533 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Doug Mason";
 			};
 			buildConfigurationList = A808774B15EAB52B00574533 /* Build configuration list for PBXProject "DTaskMaster" */;
@@ -224,6 +252,8 @@
 			files = (
 				A808776015EAB52C00574533 /* InfoPlist.strings in Resources */,
 				A808776915EAB52C00574533 /* MainStoryboard.storyboard in Resources */,
+				A808779915EADCF700574533 /* TaskHeaderViewController.xib in Resources */,
+				A88BAAE4168F4ECB00588045 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +291,10 @@
 				A808776215EAB52C00574533 /* main.m in Sources */,
 				A808776615EAB52C00574533 /* AppDelegate.m in Sources */,
 				A808776C15EAB52C00574533 /* ViewController.m in Sources */,
+				A808778E15EAB75100574533 /* TaskModel.xcdatamodeld in Sources */,
+				A808779115EABC1900574533 /* Task.m in Sources */,
+				A808779415EAD67800574533 /* TasksDocument.m in Sources */,
+				A808779815EADCF700574533 /* TaskHeaderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +351,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -344,6 +381,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -434,6 +474,7 @@
 				A808778615EAB52C00574533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A808778715EAB52C00574533 /* Build configuration list for PBXNativeTarget "DTaskMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -442,8 +483,22 @@
 				A808778915EAB52C00574533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A808778C15EAB75100574533 /* TaskModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A808778D15EAB75100574533 /* TaskModel.xcdatamodel */,
+			);
+			currentVersion = A808778D15EAB75100574533 /* TaskModel.xcdatamodel */;
+			path = TaskModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A808774815EAB52B00574533 /* Project object */;
 }

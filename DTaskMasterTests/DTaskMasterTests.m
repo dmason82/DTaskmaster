@@ -7,7 +7,7 @@
 //
 
 #import "DTaskMasterTests.h"
-
+#import "TasksDocument.h"
 @implementation DTaskMasterTests
 
 - (void)setUp
@@ -24,9 +24,8 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in DTaskMasterTests");
+-(void)testUIDocumentCreation{
+    
 }
 
 @end

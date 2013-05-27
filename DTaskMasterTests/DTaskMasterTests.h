@@ -7,7 +7,12 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "TasksDocument.h"
+@interface DTaskMasterTests : SenTestCase<NSFetchedResultsControllerDelegate>
 
-@interface DTaskMasterTests : SenTestCase
-
+@property(nonatomic,retain)    NSURL* localURL;
+@property(nonatomic,retain)    TasksDocument* document;
+@property(nonatomic,strong)NSFetchedResultsController *fetchedResultsController;
 @end

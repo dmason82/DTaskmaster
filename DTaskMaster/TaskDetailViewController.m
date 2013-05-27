@@ -37,9 +37,9 @@
 
 - (void)viewDidUnload {
     [self setActionButton:nil];
-    [self setDatePicker:nil];
     [self setTaskTitleField:nil];
     [self setTaskDetailField:nil];
+    [self setReminderDateButton:nil];
     [super viewDidUnload];
 }
 @end

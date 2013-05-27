@@ -10,8 +10,8 @@
 
 @interface TaskDetailViewController : UIViewController <UIActionSheetDelegate>
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *actionButton;
-@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (weak, nonatomic) IBOutlet UITextField *taskTitleField;
 @property (weak, nonatomic) IBOutlet UITextView *taskDetailField;
+@property (weak, nonatomic) IBOutlet UIButton *reminderDateButton;
 
 @end

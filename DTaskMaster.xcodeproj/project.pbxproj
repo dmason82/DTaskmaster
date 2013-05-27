@@ -27,6 +27,8 @@
 		A808779815EADCF700574533 /* TaskHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A808779615EADCF700574533 /* TaskHeaderViewController.m */; };
 		A808779915EADCF700574533 /* TaskHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A808779715EADCF700574533 /* TaskHeaderViewController.xib */; };
 		A88BAAE4168F4ECB00588045 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A88BAAE3168F4ECB00588045 /* Default-568h@2x.png */; };
+		A88DE9D91751CDE60023225B /* TaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88DE9D81751CDE60023225B /* TaskDetailViewController.m */; };
+		A8F518361753B4CB0077512F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A808778A15EAB6B600574533 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		A808779615EADCF700574533 /* TaskHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskHeaderViewController.m; sourceTree = "<group>"; };
 		A808779715EADCF700574533 /* TaskHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskHeaderViewController.xib; sourceTree = "<group>"; };
 		A88BAAE3168F4ECB00588045 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A88DE9D71751CDE60023225B /* TaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetailViewController.h; sourceTree = "<group>"; };
+		A88DE9D81751CDE60023225B /* TaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F518361753B4CB0077512F /* CoreData.framework in Frameworks */,
 				A808777415EAB52C00574533 /* SenTestingKit.framework in Frameworks */,
 				A808777515EAB52C00574533 /* UIKit.framework in Frameworks */,
 				A808777615EAB52C00574533 /* Foundation.framework in Frameworks */,
@@ -142,6 +147,8 @@
 				A808779515EADCF700574533 /* TaskHeaderViewController.h */,
 				A808779615EADCF700574533 /* TaskHeaderViewController.m */,
 				A808779715EADCF700574533 /* TaskHeaderViewController.xib */,
+				A88DE9D71751CDE60023225B /* TaskDetailViewController.h */,
+				A88DE9D81751CDE60023225B /* TaskDetailViewController.m */,
 			);
 			path = DTaskMaster;
 			sourceTree = "<group>";
@@ -295,6 +302,7 @@
 				A808779115EABC1900574533 /* Task.m in Sources */,
 				A808779415EAD67800574533 /* TasksDocument.m in Sources */,
 				A808779815EADCF700574533 /* TaskHeaderViewController.m in Sources */,
+				A88DE9D91751CDE60023225B /* TaskDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
